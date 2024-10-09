@@ -6,7 +6,7 @@ on:
   # This will run when any branch or tag is pushed
   push:
     branches:
-      - "main"
+      - "*"
     tags:
       - "v**"
   # Allowing to run on fork and other pull requests
